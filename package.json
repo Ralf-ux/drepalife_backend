@@ -11,8 +11,10 @@
     "dev": "nodemon "
   },
   "dependencies": {
+    "axios": "^1.11.0",
     "bcrypt": "^6.0.0",
-    "dotenv": "^17.2.1",
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.2",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "module": "^1.2.5",
@@ -20,5 +22,14 @@
     "mongose": "^0.0.2-security",
     "nodemon": "^3.1.10",
     "react-native-toast-message": "^2.3.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ralf-ux/drepalife_backend.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Ralf-ux/drepalife_backend/issues"
+  },
+  "homepage": "https://github.com/Ralf-ux/drepalife_backend#readme"
 }
