@@ -5,6 +5,7 @@ import userRoutes from "./user/userRoutes.js";
 import genotypematchRoutes from "./genotypematches/genotymatchRoutes.js";
 import axios from "axios";
 import dotenv from "dotenv";
+import HealthTip from "./models/HealthTip.js";
 dotenv.config();
 const app = express();
 app.use(cors());
